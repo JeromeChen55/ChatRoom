@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ChatServer:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aa75b7a-252a-410d-ae7c-5a069de7fda1" name="Default Changelist" comment="" />
+    <list default="true" id="4aa75b7a-252a-410d-ae7c-5a069de7fda1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/ChatRoom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/.idea/artifacts/ChatClient_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/com/chen/qqclient/view/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/com/chen/qqclient/view/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ChatClient/src/com/chen/qqclient/view/Welcome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ChatServer_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/service/ClientConnectServerTread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/service/ClientConnectServerTread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/service/ManageClientConnectServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/service/ManageClientConnectServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/service/MessageClientServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/service/MessageClientServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/service/UserClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/service/UserClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/utils/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/utils/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqclient/view/QQView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqcommon/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqcommon/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqcommon/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqcommon/MessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqcommon/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/out/production/ChatClient/com/chen/qqcommon/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/src/com/chen/qqclient/service/ClientConnectServerTread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/src/com/chen/qqclient/service/ClientConnectServerTread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/src/com/chen/qqclient/service/UserClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ChatClient/src/com/chen/qqclient/service/UserClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatClient/src/com/chen/qqclient/view/QQView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqcommon/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqcommon/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqcommon/MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqcommon/MessageType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqcommon/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqcommon/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqframe/QQFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqframe/QQFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqserver/service/ManageClientThreads.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqserver/service/ManageClientThreads.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqserver/service/QQServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqserver/service/QQServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqserver/service/ServerConnectClientThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ChatServer/com/chen/qqserver/service/ServerConnectClientThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chen/qqserver/service/QQServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chen/qqserver/service/QQServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/chen/qqserver/service/ServerConnectClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/chen/qqserver/service/ServerConnectClientThread.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,16 +60,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="21rbiR5sWcx3u9B3BtvJYHLqgqj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ChatClient" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,10 +127,41 @@
       <workItem from="1638768191474" duration="43000" />
       <workItem from="1638770338390" duration="9293000" />
       <workItem from="1638886162386" duration="8603000" />
+      <workItem from="1638947170746" duration="155000" />
+      <workItem from="1638953772439" duration="1002000" />
+      <workItem from="1638957306874" duration="774000" />
+      <workItem from="1638966301077" duration="215000" />
+      <workItem from="1639219384005" duration="3330000" />
+      <workItem from="1639227208809" duration="3319000" />
+      <workItem from="1639286361067" duration="30000" />
+      <workItem from="1639286584295" duration="2570000" />
+      <workItem from="1639305347257" duration="116000" />
+      <workItem from="1639447849878" duration="1913000" />
+      <workItem from="1639562877020" duration="11695000" />
+      <workItem from="1639574733617" duration="2985000" />
+      <workItem from="1639666636720" duration="358000" />
+      <workItem from="1639738542296" duration="985000" />
+      <workItem from="1639895371001" duration="1519000" />
+      <workItem from="1639897696380" duration="3846000" />
+      <workItem from="1640149972704" duration="1710000" />
+      <workItem from="1640326821112" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

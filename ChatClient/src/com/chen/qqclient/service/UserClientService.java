@@ -3,15 +3,12 @@ package com.chen.qqclient.service;
 import com.chen.qqcommon.Message;
 import com.chen.qqcommon.MessageType;
 import com.chen.qqcommon.User;
-import com.sun.source.tree.UsesTree;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.io.OutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 /**
  * @author Chen
@@ -32,7 +29,9 @@ public class UserClientService {
 
         try {
             //Local ip
-            Socket socket = new Socket(InetAddress.getByName("127.0.0.1"), 9999);
+            Socket socket = new Socket(InetAddress.getByName("103.46.128.53"), 17907);
+            //test
+            //Socket socket = new Socket("192.168.199.155", 9999);
             ObjectOutputStream oos = new ObjectOutputStream(socket.getOutputStream());
             //send user object
             oos.writeObject(u);
@@ -101,8 +100,8 @@ public class UserClientService {
                                     .getSocket().getOutputStream());
 
             objectOutputStream.writeObject(message);
-            System.out.println(u.getUserId() + "退出系统");
-            System.exit(0);
+
+            //System.out.println(u.getUserId() + "退出系统");
         } catch (IOException e) {
             e.printStackTrace();
         }

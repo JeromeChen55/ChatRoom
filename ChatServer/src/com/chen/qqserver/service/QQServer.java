@@ -3,10 +3,9 @@ package com.chen.qqserver.service;
 import com.chen.qqcommon.Message;
 import com.chen.qqcommon.MessageType;
 import com.chen.qqcommon.User;
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.HashMap;
@@ -20,14 +19,15 @@ import java.util.concurrent.ConcurrentHashMap;
 public class QQServer {
 
     private ServerSocket ss = null;
+    private boolean abandon = true;
 
     private static ConcurrentHashMap<String, User> validUsers = new ConcurrentHashMap<>();
 
     /** init validUsers*/
     static {
-        validUsers.put("100", new User("100", "123456"));
-        validUsers.put("200", new User("200", "123456"));
-        validUsers.put("300", new User("300", "123456"));
+        validUsers.put("cjy", new User("cjy", "aaa"));
+        validUsers.put("lhp", new User("lhp", "aaa"));
+        validUsers.put("wpf", new User("wpf", "aaa"));
         validUsers.put("刘鸿鹏", new User("刘鸿鹏", "123456"));
         validUsers.put("老八", new User("老八", "123456"));
 
@@ -56,10 +56,23 @@ public class QQServer {
             while (true) {
                 Socket socket = ss.accept();
 
-                ObjectInputStream objectInputStream =
-                        new ObjectInputStream(socket.getInputStream());
                 ObjectOutputStream objectOutputStream =
                         new ObjectOutputStream(socket.getOutputStream());
+
+                // catch the unpredictable datagram and throw away
+                ObjectInputStream objectInputStream =
+                        null;
+                try {
+                    objectInputStream = new ObjectInputStream(socket.getInputStream());
+                } catch (IOException e) {
+                    continue;
+                } finally {
+                    System.out.println("try..");
+                }
+
+                if (objectInputStream == null) {
+                    continue;
+                }
 
                 User u = (User)objectInputStream.readObject();
                 Message message = new Message();

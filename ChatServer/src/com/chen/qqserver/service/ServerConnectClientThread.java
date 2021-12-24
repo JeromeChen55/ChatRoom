@@ -41,7 +41,7 @@ public class ServerConnectClientThread extends Thread {
                 Message message = (Message) objectInputStream.readObject();
                 // action depends message type
                 if (message.getMesType().equals(MessageType.MESSAGE_GET_ONLINE_FRIEND)) {
-                    System.out.println(message.getSender() + "索取在线用户列表");
+                    System.out.println(message.getSender() + "索取了一次在线用户列表");
                     String onlineUser = ManageClientThreads.getOnlineUser();
                     //package in message
                     Message message2 = new Message();
